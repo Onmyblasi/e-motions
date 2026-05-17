@@ -164,6 +164,7 @@
                 <!-- Formulario preparado para Formspree (reemplazar ACTION en producción) -->
                 <form class="contact-form" action="https://formspree.io/f/meedjreq" method="POST">
                     <input type="hidden" name="_subject" value="Nuevo mensaje desde e-motions.es">
+                    <input type="hidden" name="_next" value="https://e-motions.es/?mensaje=enviado#contacto">
                     <div class="form-group">
                         <label for="name">Nombre o Institución</label>
                         <input type="text" id="name" name="name" class="form-control" placeholder="Ej. Dra. María García o Institución Médica" required>
